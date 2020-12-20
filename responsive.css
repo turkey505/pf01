@@ -1,0 +1,73 @@
+/* スマホ */
+@media screen and (min-width: 670px){	
+  .br-pc { display:block; }
+  .br-sp { display:none; }
+}
+@media screen and (max-width: 670px){	
+  .br-pc { display:none; }
+  .br-sp { display:block; }
+}
+@media (max-width: 670px) {
+.header-left {
+  margin-left: 0px;
+  float: center;
+}
+.header-right {
+  margin-right: 0;
+  width: 100%;
+}
+.main h1 {
+  font-size: xx-large;
+}
+.main p {
+ font-size: small;
+}
+.heading {
+  padding: 100px 0 15px 0;
+}
+  .box {
+  position: relative;
+  width: 100%;
+}
+.right {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  font-size: small;
+  margin-right: 30px;
+}
+.sp {
+  display: none;
+}
+.box img {
+  max-width: 100%;
+}
+
+
+.service {
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+.heading input {
+  width: 80%;
+  margin-top: 1em;
+}
+.button {
+  width: 80%;
+  padding: 12px 0;
+}
+
+footer hr {
+  width: 100%;
+}
+footer p {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+footer {
+  margin: 5em 0 1em 0;
+}
+
+}
